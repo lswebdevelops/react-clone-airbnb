@@ -8,7 +8,9 @@ class Navbar extends React.Component{
             <nav>
                 <img
                 className='nav-logo'
-                 src={airbnbLogo}/>
+                 src={airbnbLogo}
+                 alt='people'/>
+           
             </nav>
         )
     }

@@ -1,3 +1,6 @@
+:root{
+    --main-bgcolor: white;
+}
 *{
     box-sizing: border-box;
 }
@@ -9,9 +12,16 @@ body{
 nav{
     height: 70px;
     display: flex;
-    background-color: blue;
+    background-color: var(--main-bgcolor);
+  
     padding: 20px 36px;
 }
 .nav-logo{
     max-width: 100px;
+    background-color: var(--main-bgcolor);
+
+}
+hr{
+    margin: 0;
+    border: solid 2px rgb(244, 229, 219);
 }
