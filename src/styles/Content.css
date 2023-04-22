@@ -2,3 +2,46 @@
     --main-bgcolor: white;
 }
 
+.content-container{
+   
+    border-radius: 8px;
+}
+.div-content{
+    padding: 0px;
+  
+   
+}
+
+.img-content{
+    max-width: 100%;
+    height: 300px;
+    border-radius: 8px;
+}
+.label-img{
+  
+    background-color: white;
+    color: black;
+    padding: 2px;
+    position: relative;
+    top:30px;
+    left:6px;
+    border-radius: 5px;
+   
+  }
+  
+
+.star-icon{
+    color: red;
+}
+.star-quant-orig{
+    display: flex;
+}
+.para-price{
+    font-weight: 600;
+}
+.para-service{
+    height: 20px;;
+}
+.div-pricing-person{
+    display: flex;
+}
