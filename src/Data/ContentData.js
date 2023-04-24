@@ -28,7 +28,7 @@ const contentData = [
         rating: "4.8",
       review_count: "2"
       },
-      label: "ON SALE",
+      // label: "ON SALE",
       image: "mountain",
       location: "USA",
       service: "Group mountain biking",

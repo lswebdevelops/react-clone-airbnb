@@ -11,9 +11,6 @@ class Content extends React.Component{
         
                 <div className='div-content'>
                         <div className='div-each-picture-plus-content'>
-                        <span className='card-badge'>
-                            {label}
-                        </span>
                         <img className='img-content' src={require(`../images/photo-${image}.png`)} alt={`require(${image})`} />
                         <div className='star-quant-orig'>
                             <div><BsFillStarFill className='star-icon' /> {rating}</div>
@@ -26,6 +23,9 @@ class Content extends React.Component{
                         <div className='div-pricing-person'>
                             <p className='para-price'>From {pricing}</p>
                             <p className='para-person'>{person}</p>
+                        <span className='card-badge'>
+                            {label}
+                        </span>
                         </div>
 
                         </div>
