@@ -1,5 +1,6 @@
 const contentData = [
     {
+      id:1,
       stats:{
         rating: "5",
       review_count: "6"
@@ -12,25 +13,27 @@ const contentData = [
       person: "/person"
     },
     {
+      id:2,
       stats:{
         rating: "5",
       review_count: "36"
       },
       label: "ONLINE",
       image: "wedding",
-      location: "USA",
+      location: "ONLINE",
       service: "Learn wedding photography",
       pricing: "$125",
       person: "/person"
     },
     {
+      id:3,
       stats:{
         rating: "4.8",
       review_count: "2"
       },
       // label: "ON SALE",
       image: "mountain",
-      location: "USA",
+      location: "Wakanda",
       service: "Group mountain biking",
       pricing: "$50",
       person: "/person"

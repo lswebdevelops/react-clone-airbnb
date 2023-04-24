@@ -8,17 +8,11 @@ import contentData from './Data/ContentData';
 
 
 function App() {
-  const contentElements = contentData.map(content =>{
+  const contentElements = contentData.map(item =>{
     return(
       <Content 
-      rating={content.stats.rating}
-      review_count={content.stats.review_count}
-      label={content.label}
-      image={content.image}
-      location={content.location}
-      service={content.service}
-      pricing={content.pricing}
-      person={content.person}
+      key={item.id}
+      item={item}
       />
     )
   })
