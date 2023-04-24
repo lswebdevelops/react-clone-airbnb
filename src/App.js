@@ -12,7 +12,9 @@ function App() {
     return(
       <Content 
       key={item.id}
-      item={item}
+      // item={item} or : 
+      {...item}
+
       />
     )
   })
